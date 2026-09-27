@@ -1,0 +1,22 @@
+
+reflex[db]==0.9.11.post1
+psycopg[binary]>=3.1.8
+fastapi
+python-multipart
+torchaudio
+transformers
+opencv-python
+librosa
+scikit-learn
+langdetect
+pillow
+pandas
+pyyaml
+torch @ https://download-r2.pytorch.org/whl/cpu/torch-2.14.0%2Bcpu-cp313-cp313-manylinux_2_28_x86_64.whl
+torchvision @ https://download-r2.pytorch.org/whl/cpu/torchvision-0.29.0%2Bcpu-cp313-cp313-manylinux_2_28_x86_64.whl
+huggingface_hub
+numpy
+onnxruntime
+reflex-enterprise
+reportlab
+xy[reflex]==0.0.7

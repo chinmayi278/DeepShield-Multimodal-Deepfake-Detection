@@ -1,0 +1,521 @@
+{
+  "version": 4,
+  "app_title": "DeepShield Multimodal Forensics Plan",
+  "nav": {
+    "placement": "none",
+    "items": []
+  },
+  "pages": [
+    {
+      "id": "page-e03da71e",
+      "name": "Landing",
+      "route": "/",
+      "item_ref": {
+        "index": 2,
+        "text": "Create the responsive DeepShield landing and analysis experience with supported modality/language guidance, light/dark presentation, single- and multimodal drag-and-drop inputs, text entry, language auto-detection or manual selection, validation and size limits, upload/processing progress, accessible loading/error/empty states, and clear probabilistic-detection warnings."
+      },
+      "blocks": [
+        {
+          "id": "landing-nav",
+          "type": "nav",
+          "label": "DeepShield navigation",
+          "hint": "Brand, Analyze, History, methodology, theme toggle",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 2,
+            "text": "Create the responsive DeepShield landing and analysis experience with supported modality/language guidance, light/dark presentation, single- and multimodal drag-and-drop inputs, text entry, language auto-detection or manual selection, validation and size limits, upload/processing progress, accessible loading/error/empty states, and clear probabilistic-detection warnings."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "landing-hero",
+          "type": "hero",
+          "label": "Multimodal authenticity command center",
+          "hint": "Forensic mission statement, Analyze Content action, animated modality signal visualization, probabilistic warning",
+          "x": 0,
+          "y": 1,
+          "w": 12,
+          "h": 5,
+          "item_ref": {
+            "index": 2,
+            "text": "Create the responsive DeepShield landing and analysis experience with supported modality/language guidance, light/dark presentation, single- and multimodal drag-and-drop inputs, text entry, language auto-detection or manual selection, validation and size limits, upload/processing progress, accessible loading/error/empty states, and clear probabilistic-detection warnings."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "capabilities-grid",
+          "type": "text",
+          "label": "Detection capabilities",
+          "hint": "Image, video, audio, text, and multimodal pipeline summaries",
+          "x": 0,
+          "y": 6,
+          "w": 8,
+          "h": 4,
+          "item_ref": {
+            "index": 2,
+            "text": "Create the responsive DeepShield landing and analysis experience with supported modality/language guidance, light/dark presentation, single- and multimodal drag-and-drop inputs, text entry, language auto-detection or manual selection, validation and size limits, upload/processing progress, accessible loading/error/empty states, and clear probabilistic-detection warnings."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "language-panel",
+          "type": "text",
+          "label": "Language coverage",
+          "hint": "Eight supported languages plus extensibility and original-language analysis policy",
+          "x": 8,
+          "y": 6,
+          "w": 4,
+          "h": 4,
+          "item_ref": {
+            "index": 2,
+            "text": "Create the responsive DeepShield landing and analysis experience with supported modality/language guidance, light/dark presentation, single- and multimodal drag-and-drop inputs, text entry, language auto-detection or manual selection, validation and size limits, upload/processing progress, accessible loading/error/empty states, and clear probabilistic-detection warnings."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "process-steps",
+          "type": "text",
+          "label": "How evidence is produced",
+          "hint": "Validate, inspect modalities, fuse by reliability, explain, report",
+          "x": 0,
+          "y": 10,
+          "w": 12,
+          "h": 3,
+          "item_ref": {
+            "index": 2,
+            "text": "Create the responsive DeepShield landing and analysis experience with supported modality/language guidance, light/dark presentation, single- and multimodal drag-and-drop inputs, text entry, language auto-detection or manual selection, validation and size limits, upload/processing progress, accessible loading/error/empty states, and clear probabilistic-detection warnings."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "landing-footer",
+          "type": "footer",
+          "label": "Limitations and security notice",
+          "hint": "Probabilistic warning and privacy posture",
+          "x": 0,
+          "y": 13,
+          "w": 12,
+          "h": 2,
+          "item_ref": {
+            "index": 2,
+            "text": "Create the responsive DeepShield landing and analysis experience with supported modality/language guidance, light/dark presentation, single- and multimodal drag-and-drop inputs, text entry, language auto-detection or manual selection, validation and size limits, upload/processing progress, accessible loading/error/empty states, and clear probabilistic-detection warnings."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-694b2699",
+      "name": "Analysis Dashboard",
+      "route": "/analyze",
+      "item_ref": {
+        "index": 2,
+        "text": "Create the responsive DeepShield landing and analysis experience with supported modality/language guidance, light/dark presentation, single- and multimodal drag-and-drop inputs, text entry, language auto-detection or manual selection, validation and size limits, upload/processing progress, accessible loading/error/empty states, and clear probabilistic-detection warnings."
+      },
+      "blocks": [
+        {
+          "id": "analyze-nav",
+          "type": "nav",
+          "label": "DeepShield navigation",
+          "hint": "Brand, Analyze, History, methodology, theme toggle",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 2,
+            "text": "Create the responsive DeepShield landing and analysis experience with supported modality/language guidance, light/dark presentation, single- and multimodal drag-and-drop inputs, text entry, language auto-detection or manual selection, validation and size limits, upload/processing progress, accessible loading/error/empty states, and clear probabilistic-detection warnings."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "analysis-header",
+          "type": "header",
+          "label": "New forensic analysis",
+          "hint": "Case context, supported formats, privacy and retention note",
+          "x": 0,
+          "y": 1,
+          "w": 12,
+          "h": 2,
+          "item_ref": {
+            "index": 2,
+            "text": "Create the responsive DeepShield landing and analysis experience with supported modality/language guidance, light/dark presentation, single- and multimodal drag-and-drop inputs, text entry, language auto-detection or manual selection, validation and size limits, upload/processing progress, accessible loading/error/empty states, and clear probabilistic-detection warnings."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "analysis-tabs",
+          "type": "tabs",
+          "label": "Analysis mode",
+          "hint": "Image, video, audio, text, multimodal",
+          "x": 0,
+          "y": 3,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 2,
+            "text": "Create the responsive DeepShield landing and analysis experience with supported modality/language guidance, light/dark presentation, single- and multimodal drag-and-drop inputs, text entry, language auto-detection or manual selection, validation and size limits, upload/processing progress, accessible loading/error/empty states, and clear probabilistic-detection warnings."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "evidence-upload",
+          "type": "text",
+          "label": "Evidence intake",
+          "hint": "Drag-and-drop zone with previews, validation, progress, and removable files",
+          "x": 0,
+          "y": 4,
+          "w": 8,
+          "h": 5,
+          "item_ref": {
+            "index": 2,
+            "text": "Create the responsive DeepShield landing and analysis experience with supported modality/language guidance, light/dark presentation, single- and multimodal drag-and-drop inputs, text entry, language auto-detection or manual selection, validation and size limits, upload/processing progress, accessible loading/error/empty states, and clear probabilistic-detection warnings."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "analysis-controls",
+          "type": "form",
+          "label": "Analysis controls",
+          "hint": "Auto/manual language, model profile, consent and retention controls",
+          "x": 8,
+          "y": 4,
+          "w": 4,
+          "h": 5,
+          "item_ref": {
+            "index": 2,
+            "text": "Create the responsive DeepShield landing and analysis experience with supported modality/language guidance, light/dark presentation, single- and multimodal drag-and-drop inputs, text entry, language auto-detection or manual selection, validation and size limits, upload/processing progress, accessible loading/error/empty states, and clear probabilistic-detection warnings."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "processing-status",
+          "type": "text",
+          "label": "Processing pipeline",
+          "hint": "Validation, preprocessing, inference, fusion, explanation, report states with skeletons and errors",
+          "x": 0,
+          "y": 9,
+          "w": 12,
+          "h": 3,
+          "item_ref": {
+            "index": 2,
+            "text": "Create the responsive DeepShield landing and analysis experience with supported modality/language guidance, light/dark presentation, single- and multimodal drag-and-drop inputs, text entry, language auto-detection or manual selection, validation and size limits, upload/processing progress, accessible loading/error/empty states, and clear probabilistic-detection warnings."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-5e06c619",
+      "name": "Analysis Results",
+      "route": "/results/[analysis_id]",
+      "item_ref": {
+        "index": 3,
+        "text": "Create persistent analysis history, comprehensive result and modality-forensics views, and downloadable reports: overall Real/Fake/Uncertain verdict with calibrated confidence and risk; reliability-weighted modality scores; manipulation labels; evidence and limitations; video frame timeline and suspicious timestamps; audio waveform/spectrogram and segments; image face crops and heatmap regions; multilingual text indicators separated from factuality analysis; model/version/file metadata; and responsive report/history navigation."
+      },
+      "blocks": [
+        {
+          "id": "results-nav",
+          "type": "nav",
+          "label": "DeepShield navigation",
+          "hint": "Brand, Analyze, History, methodology, theme toggle",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 3,
+            "text": "Create persistent analysis history, comprehensive result and modality-forensics views, and downloadable reports: overall Real/Fake/Uncertain verdict with calibrated confidence and risk; reliability-weighted modality scores; manipulation labels; evidence and limitations; video frame timeline and suspicious timestamps; audio waveform/spectrogram and segments; image face crops and heatmap regions; multilingual text indicators separated from factuality analysis; model/version/file metadata; and responsive report/history navigation."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "overall-result",
+          "type": "text",
+          "label": "Overall authenticity assessment",
+          "hint": "Real/Fake/Uncertain, calibrated confidence, risk, language, manipulation types, model status",
+          "x": 0,
+          "y": 1,
+          "w": 12,
+          "h": 3,
+          "item_ref": {
+            "index": 3,
+            "text": "Create persistent analysis history, comprehensive result and modality-forensics views, and downloadable reports: overall Real/Fake/Uncertain verdict with calibrated confidence and risk; reliability-weighted modality scores; manipulation labels; evidence and limitations; video frame timeline and suspicious timestamps; audio waveform/spectrogram and segments; image face crops and heatmap regions; multilingual text indicators separated from factuality analysis; model/version/file metadata; and responsive report/history navigation."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "modality-bars",
+          "type": "chart_bar",
+          "label": "Modality confidence and reliability",
+          "hint": "Visible bars for image, video, audio, text and fused score with reliability weights",
+          "x": 0,
+          "y": 4,
+          "w": 7,
+          "h": 4,
+          "item_ref": {
+            "index": 3,
+            "text": "Create persistent analysis history, comprehensive result and modality-forensics views, and downloadable reports: overall Real/Fake/Uncertain verdict with calibrated confidence and risk; reliability-weighted modality scores; manipulation labels; evidence and limitations; video frame timeline and suspicious timestamps; audio waveform/spectrogram and segments; image face crops and heatmap regions; multilingual text indicators separated from factuality analysis; model/version/file metadata; and responsive report/history navigation."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "evidence-list",
+          "type": "list",
+          "label": "Key forensic evidence",
+          "hint": "Ranked evidence with severity, source modality, explanation, and limitations",
+          "x": 7,
+          "y": 4,
+          "w": 5,
+          "h": 4,
+          "item_ref": {
+            "index": 3,
+            "text": "Create persistent analysis history, comprehensive result and modality-forensics views, and downloadable reports: overall Real/Fake/Uncertain verdict with calibrated confidence and risk; reliability-weighted modality scores; manipulation labels; evidence and limitations; video frame timeline and suspicious timestamps; audio waveform/spectrogram and segments; image face crops and heatmap regions; multilingual text indicators separated from factuality analysis; model/version/file metadata; and responsive report/history navigation."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "forensics-tabs",
+          "type": "tabs",
+          "label": "Forensics workspace",
+          "hint": "Image, video, audio and text evidence tabs shown only when present",
+          "x": 0,
+          "y": 8,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 3,
+            "text": "Create persistent analysis history, comprehensive result and modality-forensics views, and downloadable reports: overall Real/Fake/Uncertain verdict with calibrated confidence and risk; reliability-weighted modality scores; manipulation labels; evidence and limitations; video frame timeline and suspicious timestamps; audio waveform/spectrogram and segments; image face crops and heatmap regions; multilingual text indicators separated from factuality analysis; model/version/file metadata; and responsive report/history navigation."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "forensics-viewer",
+          "type": "timeline",
+          "label": "Modality evidence viewer",
+          "hint": "Heatmap and face crops, frame strip and timeline, waveform and spectrogram, or highlighted multilingual text",
+          "x": 0,
+          "y": 9,
+          "w": 8,
+          "h": 6,
+          "item_ref": {
+            "index": 3,
+            "text": "Create persistent analysis history, comprehensive result and modality-forensics views, and downloadable reports: overall Real/Fake/Uncertain verdict with calibrated confidence and risk; reliability-weighted modality scores; manipulation labels; evidence and limitations; video frame timeline and suspicious timestamps; audio waveform/spectrogram and segments; image face crops and heatmap regions; multilingual text indicators separated from factuality analysis; model/version/file metadata; and responsive report/history navigation."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "evidence-inspector",
+          "type": "inspector",
+          "label": "Evidence inspector",
+          "hint": "Suspicious regions, timestamps, segments, indicators, model version and confidence caveats",
+          "x": 8,
+          "y": 9,
+          "w": 4,
+          "h": 6,
+          "item_ref": {
+            "index": 3,
+            "text": "Create persistent analysis history, comprehensive result and modality-forensics views, and downloadable reports: overall Real/Fake/Uncertain verdict with calibrated confidence and risk; reliability-weighted modality scores; manipulation labels; evidence and limitations; video frame timeline and suspicious timestamps; audio waveform/spectrogram and segments; image face crops and heatmap regions; multilingual text indicators separated from factuality analysis; model/version/file metadata; and responsive report/history navigation."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "result-actions",
+          "type": "text",
+          "label": "Result actions",
+          "hint": "Download report, revisit analysis, start new analysis",
+          "x": 0,
+          "y": 15,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 3,
+            "text": "Create persistent analysis history, comprehensive result and modality-forensics views, and downloadable reports: overall Real/Fake/Uncertain verdict with calibrated confidence and risk; reliability-weighted modality scores; manipulation labels; evidence and limitations; video frame timeline and suspicious timestamps; audio waveform/spectrogram and segments; image face crops and heatmap regions; multilingual text indicators separated from factuality analysis; model/version/file metadata; and responsive report/history navigation."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-14f92916",
+      "name": "Analysis History",
+      "route": "/history",
+      "item_ref": {
+        "index": 3,
+        "text": "Create persistent analysis history, comprehensive result and modality-forensics views, and downloadable reports: overall Real/Fake/Uncertain verdict with calibrated confidence and risk; reliability-weighted modality scores; manipulation labels; evidence and limitations; video frame timeline and suspicious timestamps; audio waveform/spectrogram and segments; image face crops and heatmap regions; multilingual text indicators separated from factuality analysis; model/version/file metadata; and responsive report/history navigation."
+      },
+      "blocks": [
+        {
+          "id": "history-nav",
+          "type": "nav",
+          "label": "DeepShield navigation",
+          "hint": "Brand, Analyze, History, methodology, theme toggle",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 3,
+            "text": "Create persistent analysis history, comprehensive result and modality-forensics views, and downloadable reports: overall Real/Fake/Uncertain verdict with calibrated confidence and risk; reliability-weighted modality scores; manipulation labels; evidence and limitations; video frame timeline and suspicious timestamps; audio waveform/spectrogram and segments; image face crops and heatmap regions; multilingual text indicators separated from factuality analysis; model/version/file metadata; and responsive report/history navigation."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "history-header",
+          "type": "header",
+          "label": "Forensic case history",
+          "hint": "Persistent analyses with privacy and retention context",
+          "x": 0,
+          "y": 1,
+          "w": 12,
+          "h": 2,
+          "item_ref": {
+            "index": 3,
+            "text": "Create persistent analysis history, comprehensive result and modality-forensics views, and downloadable reports: overall Real/Fake/Uncertain verdict with calibrated confidence and risk; reliability-weighted modality scores; manipulation labels; evidence and limitations; video frame timeline and suspicious timestamps; audio waveform/spectrogram and segments; image face crops and heatmap regions; multilingual text indicators separated from factuality analysis; model/version/file metadata; and responsive report/history navigation."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "history-filters",
+          "type": "form",
+          "label": "History filters",
+          "hint": "Search, date, modality, verdict, risk, language and model version",
+          "x": 0,
+          "y": 3,
+          "w": 12,
+          "h": 2,
+          "item_ref": {
+            "index": 3,
+            "text": "Create persistent analysis history, comprehensive result and modality-forensics views, and downloadable reports: overall Real/Fake/Uncertain verdict with calibrated confidence and risk; reliability-weighted modality scores; manipulation labels; evidence and limitations; video frame timeline and suspicious timestamps; audio waveform/spectrogram and segments; image face crops and heatmap regions; multilingual text indicators separated from factuality analysis; model/version/file metadata; and responsive report/history navigation."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "history-table",
+          "type": "table",
+          "label": "Analysis records",
+          "hint": "File or case, modalities, verdict, confidence, risk, language, created time and report action",
+          "x": 0,
+          "y": 5,
+          "w": 12,
+          "h": 6,
+          "item_ref": {
+            "index": 3,
+            "text": "Create persistent analysis history, comprehensive result and modality-forensics views, and downloadable reports: overall Real/Fake/Uncertain verdict with calibrated confidence and risk; reliability-weighted modality scores; manipulation labels; evidence and limitations; video frame timeline and suspicious timestamps; audio waveform/spectrogram and segments; image face crops and heatmap regions; multilingual text indicators separated from factuality analysis; model/version/file metadata; and responsive report/history navigation."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "history-empty",
+          "type": "text",
+          "label": "No matching analyses",
+          "hint": "Accessible guidance and new-analysis action",
+          "x": 0,
+          "y": 11,
+          "w": 12,
+          "h": 3,
+          "item_ref": {
+            "index": 3,
+            "text": "Create persistent analysis history, comprehensive result and modality-forensics views, and downloadable reports: overall Real/Fake/Uncertain verdict with calibrated confidence and risk; reliability-weighted modality scores; manipulation labels; evidence and limitations; video frame timeline and suspicious timestamps; audio waveform/spectrogram and segments; image face crops and heatmap regions; multilingual text indicators separated from factuality analysis; model/version/file metadata; and responsive report/history navigation."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-719a5cee",
+      "name": "Forensic Report",
+      "route": "/report/[analysis_id]",
+      "item_ref": {
+        "index": 3,
+        "text": "Create persistent analysis history, comprehensive result and modality-forensics views, and downloadable reports: overall Real/Fake/Uncertain verdict with calibrated confidence and risk; reliability-weighted modality scores; manipulation labels; evidence and limitations; video frame timeline and suspicious timestamps; audio waveform/spectrogram and segments; image face crops and heatmap regions; multilingual text indicators separated from factuality analysis; model/version/file metadata; and responsive report/history navigation."
+      },
+      "blocks": [
+        {
+          "id": "report-nav",
+          "type": "nav",
+          "label": "DeepShield navigation",
+          "hint": "Brand, Analyze, History, methodology, theme toggle",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 3,
+            "text": "Create persistent analysis history, comprehensive result and modality-forensics views, and downloadable reports: overall Real/Fake/Uncertain verdict with calibrated confidence and risk; reliability-weighted modality scores; manipulation labels; evidence and limitations; video frame timeline and suspicious timestamps; audio waveform/spectrogram and segments; image face crops and heatmap regions; multilingual text indicators separated from factuality analysis; model/version/file metadata; and responsive report/history navigation."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "report-header",
+          "type": "header",
+          "label": "DeepShield forensic report",
+          "hint": "Case identifier, timestamp, file metadata, language and export action",
+          "x": 0,
+          "y": 1,
+          "w": 12,
+          "h": 3,
+          "item_ref": {
+            "index": 3,
+            "text": "Create persistent analysis history, comprehensive result and modality-forensics views, and downloadable reports: overall Real/Fake/Uncertain verdict with calibrated confidence and risk; reliability-weighted modality scores; manipulation labels; evidence and limitations; video frame timeline and suspicious timestamps; audio waveform/spectrogram and segments; image face crops and heatmap regions; multilingual text indicators separated from factuality analysis; model/version/file metadata; and responsive report/history navigation."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "report-summary",
+          "type": "text",
+          "label": "Assessment summary",
+          "hint": "Prediction, confidence, risk, modality and model versions",
+          "x": 0,
+          "y": 4,
+          "w": 12,
+          "h": 3,
+          "item_ref": {
+            "index": 3,
+            "text": "Create persistent analysis history, comprehensive result and modality-forensics views, and downloadable reports: overall Real/Fake/Uncertain verdict with calibrated confidence and risk; reliability-weighted modality scores; manipulation labels; evidence and limitations; video frame timeline and suspicious timestamps; audio waveform/spectrogram and segments; image face crops and heatmap regions; multilingual text indicators separated from factuality analysis; model/version/file metadata; and responsive report/history navigation."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "report-evidence",
+          "type": "text",
+          "label": "Evidence appendix",
+          "hint": "Suspicious regions, frames, timestamps, audio segments and text indicators",
+          "x": 0,
+          "y": 7,
+          "w": 8,
+          "h": 6,
+          "item_ref": {
+            "index": 3,
+            "text": "Create persistent analysis history, comprehensive result and modality-forensics views, and downloadable reports: overall Real/Fake/Uncertain verdict with calibrated confidence and risk; reliability-weighted modality scores; manipulation labels; evidence and limitations; video frame timeline and suspicious timestamps; audio waveform/spectrogram and segments; image face crops and heatmap regions; multilingual text indicators separated from factuality analysis; model/version/file metadata; and responsive report/history navigation."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "report-limitations",
+          "type": "text",
+          "label": "Method and limitations",
+          "hint": "Reliability weights, model status, factuality distinction and false-positive/negative warning",
+          "x": 8,
+          "y": 7,
+          "w": 4,
+          "h": 6,
+          "item_ref": {
+            "index": 3,
+            "text": "Create persistent analysis history, comprehensive result and modality-forensics views, and downloadable reports: overall Real/Fake/Uncertain verdict with calibrated confidence and risk; reliability-weighted modality scores; manipulation labels; evidence and limitations; video frame timeline and suspicious timestamps; audio waveform/spectrogram and segments; image face crops and heatmap regions; multilingual text indicators separated from factuality analysis; model/version/file metadata; and responsive report/history navigation."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    }
+  ],
+  "attached_to_plan": false
+}

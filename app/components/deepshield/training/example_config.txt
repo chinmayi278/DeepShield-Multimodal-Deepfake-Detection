@@ -1,0 +1,20 @@
+{
+  "dataset_root": "/private/reviewed-datasets",
+  "manifest": "/private/manifests/split.jsonl",
+  "output": "/private/experiments/reviewed-run",
+  "pretrained": "/private/checkpoints/mobilenet_v3_small.pth",
+  "factory": "app.components.deepshield.training.transfer:build",
+  "seed": 42,
+  "epochs": 15,
+  "batch_size": 4,
+  "learning_rate": 0.0001,
+  "patience": 4,
+  "min_delta": 0.0001,
+  "weight_decay": 0.01,
+  "balance_classes": true,
+  "freeze_backbone": true,
+  "augmentation": {"name": "none", "severity": 0.2, "seed": 42, "background_audio": ""},
+  "threshold": 0.5,
+  "threshold_validation_id": "",
+  "feature_manifest_id": ""
+}
